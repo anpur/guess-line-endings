@@ -1,0 +1,30 @@
+{
+  "name": "guess-line-endings",
+  "version": "1.0.0",
+  "description": "Finds all types of line endings in byte array (ASCII or UTF8 or UTF16LE): \\n, \\r\\n, \\r",
+  "main": "guess-line-endings.js",
+  "scripts": {
+    "test": "mocha tests/*-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anpur/guess-line-endings.git"
+  },
+  "keywords": [
+    "line endings",
+    "ascii",
+    "utf8",
+    "encoding"
+  ],
+  "author": "Anton Purin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anpur/guess-line-endings/issues"
+  },
+  "homepage": "https://github.com/anpur/guess-line-endings#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "runkitExampleFilename": "runkit-example.js"
+}
